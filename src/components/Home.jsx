@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 
 import Navbar from "./Navbar";
-import About from "./About";
-import { motion } from "framer-motion";
-import Contact from "./Contact";
+
 import Footer from "./Footer";
 
 const Home = () => {

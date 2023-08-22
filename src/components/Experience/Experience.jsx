@@ -34,8 +34,8 @@ const Experience = () => {
           {phase1 && <Phaseone/>}
           {phase2 && <Phasetwo/>}
         </div>
+        {phase1 && <Footer/>}
       </section>
-      
     </>
   );
 };
