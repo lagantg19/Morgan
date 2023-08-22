@@ -17,7 +17,7 @@ const Navbar = () => {
       >
         <div className="col-4 d-flex justify-content-start lagan">
           <Link to="/Morgan" style={{ textDecoration: "none", color: "white" }}>
-            <h1>LAGAN</h1>
+            <h1 style={{marginLeft:"10px"}} className="mt-2">LAGAN</h1>
           </Link>
         </div>
         <div className="col-6">

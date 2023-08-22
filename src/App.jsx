@@ -12,6 +12,7 @@ import Preparation from "./components/Preparation";
 
 
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ const App = () => {
        
         <Route path="/Morgan/experience" element={<Experience />} />
         <Route path="/Morgan/preparation" element={<Preparation />} />
+        {/* <Route path="/Morgan/test" element={<Test />} /> */}
       </Routes>
     </BrowserRouter>
   );

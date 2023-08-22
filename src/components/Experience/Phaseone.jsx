@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Phaseone = () => {
   return (
     <>
@@ -10,8 +11,8 @@ const Phaseone = () => {
         </div>
       </div>
       <div className="row ">
-        <div className="col text-white mt-3">
-          <p style={{ fontSize: "30px" }}>
+        <div className="col text-white mt-3 ">
+          <p style={{ fontSize: "30px" } } >
             JpMorgan was the first Dream company to come for our placements
             <hr />
             <b>💻Coding :-</b>Two easy-medium coding questions were asked.

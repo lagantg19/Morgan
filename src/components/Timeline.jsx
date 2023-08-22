@@ -11,7 +11,7 @@ const Timeline = () => {
           <h2>Code For Good Timeline</h2>
           <p>FTE Recruitment</p>
         </div>
-        <div class="timeline">
+        <div class="timeline navi">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
