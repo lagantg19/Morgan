@@ -45,15 +45,15 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid dream text-white " style={{marginTop:"20%"}}>
+        <div className="container-fluid dream text-white " style={{marginTop:"10%"}}>
           <div className="row ">
-          <div className="col-12  d-flex justify-content-center">
+          <div className="col-12  d-flex justify-content-center para">
             <h1>BY,</h1>
           </div>
-            <div className="col-12 d-flex justify-content-center">
+            <div className="col-12 d-flex justify-content-center para">
               <h1>-Winner of JPMC CFG 2023 </h1>
             </div>
-            <div className="col-12 d-flex justify-content-center">
+            <div className="col-12 d-flex justify-content-center para">
               <h1>-Only Person to get Full time offer from winning team</h1>
             </div>
           </div>

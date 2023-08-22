@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mr+De+Haviland&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
 
 .lagan {
   font-family: "Mr De Haviland", cursive;
@@ -23,6 +24,9 @@
 }
 .about {
   color: thistle;
+}
+.para{
+  font-family: 'Kanit', sans-serif;
 }
 
 @media (max-width: 768px) {
