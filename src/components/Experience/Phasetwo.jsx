@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Experience.css";
 
 const Phasetwo = () => {
   return (
@@ -9,7 +11,7 @@ const Phasetwo = () => {
           <hr />
         </div>
       </div>
-      <div className="row ">
+      <div className="row hey">
         <div className="col text-white mt-3">
           <p style={{ fontSize: "20px" }}>
             It's not just another hackathon but a hackathon with a cause.
@@ -17,9 +19,11 @@ const Phasetwo = () => {
             <b>Experience :-</b>After the coding round, we advanced to the next
             phase: the hackathon. This was a chance for me to polish my
             development skills, and the resources I used for preparation can be
-            found in the "Preparation" section. I had a month to get ready
+            found in the <Link to="/Morgan/preparation">"Preparation"</Link> section.<br/>
+             I had a month to get ready
             before the hackathon kicked off. During this time, I completed
-            learning the MERN stack. JP Morgan released a survey where
+            learning the MERN stack. 
+            <br/>JP Morgan released a survey where
             participants were required to indicate their proficiency in three
             skill categories: frontend, backend, and fullstack. Additionally,
             the survey inquired about previous hackathon attendance. The aim was
@@ -31,7 +35,7 @@ const Phasetwo = () => {
             SDE3s at JP Morgan. Teams consisted of seven members, with teammates
             unknown until the hackathon's commencement. Teammates were
             identified through assigned team numbers, allowing us to locate each
-            other and collaborate. Participating in this hackathon offered
+            other and collaborate.<br/> Participating in this hackathon offered
             several benefits: real-world problem solving, a chance to contribute
             to meaningful causes, and the possibility of recruitment. JP Morgan
             conducted this initiative exclusively for selected top-tier colleges
@@ -44,8 +48,9 @@ const Phasetwo = () => {
             throughout the hackathon, and the initial interaction was
             particularly interesting as it required teamwork with strangers. The
             hackathon comprised two primary aspects: winning the competition and
-            potential recruitment. Securing victory did not guarantee job
-            offers. While my team emerged as winners, only I received a job
+            potential recruitment. 
+            <br/><b>Securing victory did not guarantee job
+            offers.</b> While my team emerged as winners, only I received a job
             offer. In terms of recruitment, effective communication and
             showcasing one's expertise were key. Interacting with mentors,
             updating them regularly, and demonstrating skills were crucial. It's
@@ -60,8 +65,8 @@ const Phasetwo = () => {
             strategies to the specific problem statement. Some tips for success
             in a hackathon include brainstorming before coding, being a
             collaborative team player, actively participating in group
-            discussions, consistently updating mentors on progress, seeking and
-            heeding mentor advice, and maintaining a proactive approach.
+            discussions, consistently updating mentors on progress, seeking 
+            mentor advice, and maintaining a proactive approach.
           </p>
           <br />
         </div>

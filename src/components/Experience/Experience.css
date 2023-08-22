@@ -2,7 +2,7 @@
 
 
 .exp{
-    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('exp.jpg');
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('exp.jpg');
     /* height:100vh; */
     background-size: cover;
     background-position: center;
@@ -132,4 +132,15 @@
   .switch input:checked + .toggle > .right {
     transform: rotateX(10deg) rotateY(0deg);
     color: #487bdb;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .hey{
+      font-size: "20px";
+    }
+
+
+
   }

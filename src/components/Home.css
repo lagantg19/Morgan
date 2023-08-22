@@ -1,36 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mr+De+Haviland&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mr+De+Haviland&display=swap');
-
-
-
-.lagan{
-    font-family: 'Mr De Haviland', cursive;
+.lagan {
+  font-family: "Mr De Haviland", cursive;
 }
 
-.dream{
-    font-family: 'Dancing Script', cursive;
+.dream {
+  font-family: "Dancing Script", cursive;
 }
-.bg{
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('bg.jfif');
-    height:100vh;
+.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("bg.jfif");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.second {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("bg5.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.about {
+  color: thistle;
+}
+
+@media (max-width: 768px) {
+  .bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+      url("bg.jfif");
+    height: 100vh;
     background-size: cover;
     background-position: center;
-}
-.second{
-    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('bg5.jpg');
-    height:100vh;
+  }
+  .second {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+      url("bg5.jpg");
+    height: 100vh;
     background-size: cover;
     background-position: center;
-
-}
-.about{
-    color:thistle;
-   
-}
-.contact{
-    background:rgb(242, 84, 110);
-    height:100vh;
-    background-size: cover;
-    background-position: center;
-
+  }
 }

@@ -5,17 +5,18 @@ import About from "./About";
 import "./Home.css";
 import Timeline from "./Timeline";
 import { Link, useNavigate } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = () => {
   const Navigate = useNavigate();
   return (
-    <div className="container-fluid">
+    <div className="container-fluid navi">
       <div
         className="row d-flex align-items-center "
         style={{ color: "white" }}
       >
         <div className="col-4 d-flex justify-content-start lagan">
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+          <Link to="/Morgan" style={{ textDecoration: "none", color: "white" }}>
             <h1>LAGAN</h1>
           </Link>
         </div>
@@ -23,7 +24,7 @@ const Navbar = () => {
           <div className="row">
             <div className="col">
               <Link
-                to="/timeline "
+                to="/Morgan/timeline "
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <h5>Timeline</h5>
@@ -31,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className="col">
               <Link
-                to="/experience "
+                to="/Morgan/experience "
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <h5>Experience</h5>
@@ -40,7 +41,7 @@ const Navbar = () => {
 
             <div className="col">
               <Link
-                to="/preparation "
+                to="/Morgan/preparation "
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <h5>Preparation</h5>

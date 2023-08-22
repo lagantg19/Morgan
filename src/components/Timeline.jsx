@@ -162,7 +162,7 @@ where 225 students from all over India participated
                     </div>
                   </div>
                   <div class="timeline-start">
-                    <p>Launch</p>
+                    <p>OFFER</p>
                   </div>
                   <div class="timeline-launch">
                     <div class="timeline-box">

@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,800&display=swap');
+
 .bg{
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('bg.jfif');
     height:100vh;
     background-size: cover;
     background-position: center;
+}
+.small{
+    font-family: 'Exo 2', sans-serif;
+}
+
+@media (max-width: 768px){
+    .small{
+        font-size: "10px";
+        font-family: 'Exo 2', sans-serif;
+    }
 }
