@@ -8,7 +8,7 @@ import "./Navbar.css";
 
 const Preparation = () => {
   return (
-    <section className="bg">
+    <section className="bg min-vh-100 overflow-scroll">
       <Navbar />
       <container className=" d-flex justify-content-center mt-5">
         <div class="card me-5 small " style={{width:"20rem"}} >

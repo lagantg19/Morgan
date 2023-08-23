@@ -4,8 +4,8 @@ import "./Experience.css";
 
 const Phasetwo = () => {
   return (
-    <>
-      <div className="row mt-3">
+    <div className="container-fluid min-vh-100 overflow-hidden">
+      <div className="row mt-3 ">
         <div className="col text-center text-white">
           <h1>Phase 2-The Hackathon (CFG)</h1>
           <hr />
@@ -76,7 +76,7 @@ const Phasetwo = () => {
           the only one from my team to get the offer.
         </h1>
       </div>
-    </>
+    </div>
   );
 };
 

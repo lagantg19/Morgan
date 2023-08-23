@@ -2,7 +2,7 @@
 
 .bg{
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('bg.jfif');
-    height:100vh;
+    min-height:100vh;
     background-size: cover;
     background-position: center;
 }
@@ -12,6 +12,7 @@
 
 
 @media (max-width: 768px){
+    
     .small{
         font-size: "8px";
         font-family: 'Exo 2', sans-serif;

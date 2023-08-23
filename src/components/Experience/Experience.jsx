@@ -19,7 +19,7 @@ const Experience = () => {
 
   return (
     <>
-      <section className="exp">
+      <section className="exp overflow-scroll min-vh-100">
         <Navbar />
         <div className="container-fluid">
           <div className="d-flex justify-content-center mt-5">
@@ -34,7 +34,7 @@ const Experience = () => {
           {phase1 && <Phaseone/>}
           {phase2 && <Phasetwo/>}
         </div>
-        {phase1 && <Footer/>}
+        
       </section>
     </>
   );
