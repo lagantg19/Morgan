@@ -20,7 +20,7 @@ const Navbar = () => {
             <h1 style={{marginLeft:"10px"}} className="mt-2">LAGAN</h1>
           </Link>
         </div>
-        <div className="col-6">
+        <div className="col-6 para">
           <div className="row">
             <div className="col">
               <Link

@@ -8,7 +8,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <section className="bg overflow-scroll min-vh-100">
+      <section className="bg overflow-hidden min-vh-100">
         <Navbar />
 
         <div
